@@ -5,7 +5,7 @@ import ch.cern.quantumconnect.core.Experiment;
 public class EmulatorRunner {
 
   public static void main(String[] args) throws InterruptedException {
-    var exp = new Experiment(new AlexikoBot(), new AlexikoBot());
+    var exp = new Experiment(new AlexikoBot(), new RandomBot());
     exp.runExperiment();
   }
 }
