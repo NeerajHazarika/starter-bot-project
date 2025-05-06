@@ -22,7 +22,7 @@ jar {
     }
     manifest {
         attributes(
-                'Bot-Class': 'ch.qc.starter.RandomBot',
+                'Bot-Class': 'ch.qc.starter.AlexikoBot',
                 'Main-Class': 'ch.qc.starter.EmulatorRunner'
         )
     }
