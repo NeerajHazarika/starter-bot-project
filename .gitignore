@@ -1,10 +1,11 @@
 .gradle
-build/classes/
-build/generated/
-build/reports/
-build/resources/
-build/tmp/
-build/libs/
+build/
+# build/classes/
+# build/generated/
+# build/reports/
+# build/resources/
+# build/tmp/
+# build/libs/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
